@@ -256,4 +256,4 @@ test_data_brm<- getData(evaluationScheem_bmm, "known")
 
 
 set.seed(123)
-matriz_binaria <- as(matriz_real > 0, "dgCMatrix")  # si partimos de realRatingMatrix
+matriz_binaria <- as(matriz_real > 0, "dgCMatrix")  # si partimos de realRatingMatriz
